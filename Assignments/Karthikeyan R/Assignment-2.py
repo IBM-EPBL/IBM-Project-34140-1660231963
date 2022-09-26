@@ -5,7 +5,7 @@ flag = 1
 while(flag==1 and flag!=2):
     temp = random.uniform(-80,190)
     humid = random.uniform(0,100)
-    if(temperature>=45):
+    if(temp>=45):
         print("Alert!!! Alarm ON!!! High temperature detected")
         print("Temperature value is: "+str(temp)+"° C")
         print("Humidity value is: "+str(humid))
